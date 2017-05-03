@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26403.7
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ikit-mita-hw2", "ikit-mita-hw2\ikit-mita-hw2.csproj", "{43681D01-E560-4779-86BF-F19059D68AC4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Model", "Model\Model.csproj", "{426E6F00-A856-4FD5-A2B8-8F2A07945E95}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{43681D01-E560-4779-86BF-F19059D68AC4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43681D01-E560-4779-86BF-F19059D68AC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43681D01-E560-4779-86BF-F19059D68AC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43681D01-E560-4779-86BF-F19059D68AC4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{426E6F00-A856-4FD5-A2B8-8F2A07945E95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{426E6F00-A856-4FD5-A2B8-8F2A07945E95}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{426E6F00-A856-4FD5-A2B8-8F2A07945E95}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{426E6F00-A856-4FD5-A2B8-8F2A07945E95}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
