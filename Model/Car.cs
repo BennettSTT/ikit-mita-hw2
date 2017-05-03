@@ -9,7 +9,7 @@ namespace Model
 {
     public class Car
     {
-        public Car(Category category, string model) // Category????
+        public Car(Category category, string model)
         {
             if (category != Category.A) // ??????????
                 Category = category;
