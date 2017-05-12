@@ -24,7 +24,7 @@ namespace Model
             get { return _categories ?? (_categories = new List<Category>()); }
             set { _categories = value; }
         }
-        public TimeSpan Experience => DateTime.Now - _licenceDate;
+        public int Experience => DateTime.Now.Year - _licenceDate.Year;
         public Car Car { get; private set; }
 
         public void OwnCar(Car car)
