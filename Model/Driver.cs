@@ -17,7 +17,6 @@ namespace Model
         public DateTime LicenceDate { get; }
         public string Name { get; }
         public TimeSpan Experience => DateTime.Now - LicenceDate;
-
         private List<Category> _categories;
         public List<Category> Categories
         {
