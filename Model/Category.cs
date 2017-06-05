@@ -4,10 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Model.Enums
+namespace Model
 {
-    public enum Category
-    {
-        A, B, C, D, E, F
-    }
+    public enum Category { A, B, C, D, E, F }
 }

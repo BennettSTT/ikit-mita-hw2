@@ -4,7 +4,6 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Model;
-using Model.Enums;
 
 namespace ikit_mita_hw2
 {
@@ -12,10 +11,9 @@ namespace ikit_mita_hw2
     {
         static void Main(string[] args)
         {
-            var lada = new Car(Category.D, "Лада");
+            var lada = new Car(Category.B, "Лада");
             Console.WriteLine($"Имя водителя: {lada.CarPassport.Owner.Name}");
-
-            var driver = new Driver(DateTime.Today, "Вольдемар");
+            var driver = new Driver(new DateTime(2010,5,26), "Вольдемар");
             driver.Categories.Add(Category.B);
             driver.Categories.Add(Category.C);
 
