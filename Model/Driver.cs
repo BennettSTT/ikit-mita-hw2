@@ -23,7 +23,9 @@ namespace Model
             get => _categories ?? (_categories = new List<Category>());
             set => _categories = value;
         }
+
         public Car Car { get; private set; }
+
         public void OwnCar(Car car)
         {
             if (Categories.Any(category => category == car.Category))
