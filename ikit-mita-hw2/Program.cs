@@ -19,7 +19,7 @@ namespace ikit_mita_hw2
 
             try
             {
-                lada.ChangeOwner(driver, "o777ooo"); // ошибка, несоответствие категорий
+                lada.ChangeOwner(driver, "o777ooo");
             }
             catch (Exception e)
             {

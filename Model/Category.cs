@@ -6,5 +6,13 @@ using System.Threading.Tasks;
 
 namespace Model
 {
-    public enum Category { A, B, C, D, E, F }
+    public enum Category
+    {
+        A,
+        B,
+        C,
+        D,
+        E,
+        F
+    }
 }

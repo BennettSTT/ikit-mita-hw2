@@ -19,7 +19,6 @@ namespace Model
             Model = model;
             CarPassport = new CarPassport(this);
         }
-
         public Category Category { get; }
         public string Model { get; }
         public Color Color { get; set; } = Color.Blue;

@@ -13,6 +13,7 @@ namespace Model
             LicenceDate = licenceDate;
             Name = name;
         }
+
         public DateTime LicenceDate { get; }
         public string Name { get; }
         private List<Category> _categories;
