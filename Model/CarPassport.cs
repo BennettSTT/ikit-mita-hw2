@@ -13,6 +13,6 @@ namespace Model
             Car = car;
         }
         public Driver Owner = new Driver(DateTime.Today, "Какой-то водитель");
-        public readonly Car Car;
+        public Car Car { get; }
     }
 }

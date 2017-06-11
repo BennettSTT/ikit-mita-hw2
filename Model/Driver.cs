@@ -22,7 +22,19 @@ namespace Model
             get => _categories ?? (_categories = new List<Category>());
             set => _categories = value;
         }
-        public int Experience => DateTime.Now.Year - LicenceDate.Year;
+
+        public int Experience
+        {
+            get
+            {
+                if (DateTime.Now.Month < LicenceDate.Month || DateTime.Now.Month == LicenceDate.Month && DateTime.Now.Day < LicenceDate.Day)
+                {
+                    return DateTime.Now.Year - LicenceDate.Year - 1;
+                }
+                return DateTime.Now.Year - LicenceDate.Year;
+            }
+        }
+
         public Car Car { get; private set; }
         public void OwnCar(Car car)
         {
